@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-11-16T14:40:52.435Z",
+  "nodeCount": 2000,
+  "browser": "Chromium channel \"chrome\"",
+  "skipped": false,
+  "consoleErrors": [],
+  "metrics": {
+    "importToDomMs": 1121.3,
+    "domNodesAfterImport": 259,
+    "visibleNodesAnnounced": "2000 visible nodes, zoom 100 percent. Selected: Root",
+    "firstKeyToInputMs": 1.1,
+    "meanKeyIntervalMs": 9.88,
+    "keystrokes": 6,
+    "commitToRenderMs": 465.8,
+    "dragFrames": 373,
+    "dragMedianFrameMs": 7,
+    "dragP95FrameMs": 55.5,
+    "dragLongFrames": 43
+  }
+}

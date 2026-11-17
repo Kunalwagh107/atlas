@@ -1,0 +1,42 @@
+{
+  "name": "atlas-mindmap",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b --pretty false",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:pwa": "playwright test --config=playwright.pwa.config.ts",
+    "test:pwa:update": "node scripts/pwa-update-check.mjs",
+    "test:cloudflare": "node scripts/cloudflare-check.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "bench": "node scripts/benchmark.mjs",
+    "bench:browser": "node scripts/browser-benchmark.mjs"
+  },
+  "dependencies": {
+    "gifenc": "^1.0.3",
+    "lucide-react": "^0.468.0",
+    "react": "19.1.10",
+    "react-dom": "19.1.10"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "5.2.0",
+    "fake-indexeddb": "^6.2.8",
+    "typescript": "5.9.3",
+    "vite": "7.3.8",
+    "vitest": "^3.2.7"
+  }
+}

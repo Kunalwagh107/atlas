@@ -1,0 +1,18 @@
+{
+  "name": "Atlas — Mind Map Workspace",
+  "short_name": "Atlas",
+  "description": "A local-first mind-map workspace that works offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fa",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

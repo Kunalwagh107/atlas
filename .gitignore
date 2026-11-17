@@ -1,0 +1,44 @@
+# ── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+.pnpm-store/
+.yarn/
+
+# ── Build output ─────────────────────────────────────────────────────────────
+
+dist/
+.wrangler/
+
+# ── Tests ────────────────────────────────────────────────────────────────────
+test-results/
+playwright-report/
+blob-report/
+coverage/
+.playwright-cli/
+shots/
+
+# ── TypeScript ───────────────────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ── Local secrets ────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+
+# ── Tooling and agent scratch space ──────────────────────────────────────────
+.workbuddy-ai/
+brag-output/
+.stageshow/
+
+# ── Editor and OS noise ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.local
+*.log
